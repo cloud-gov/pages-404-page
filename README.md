@@ -8,7 +8,7 @@ This is the 404 error page for Federalist *client sites*, as opposed to the Fede
 
 ### Deployment
 
-To deploy the 404 page, copy the 404-federalist-client.html to your S3 bucket root 404.html
+To deploy, copy the 404-federalist-client.html to your S3 bucket root 404.html
 ```
 aws s3 cp 404-federalist-client.html s3://[BUCKET]/404.html
 ```
