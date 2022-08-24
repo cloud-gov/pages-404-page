@@ -1,14 +1,14 @@
-## Federalist 404 page
+## Pages 404 page
 
 ### About
 
-[Federalist](https://github.com/18F/federalist) helps federal agencies and offices quickly launch compliant websites.
+[Cloud.gov Pages](https://github.com/cloud-gov/pages-core) helps federal agencies and offices quickly launch compliant websites.
 
-This is the 404 error page for Federalist *client sites*, as opposed to the Federalist web app itself.
+This is the 404 error page for Pages *client sites*, as opposed to the Pages web app itself.
 
 ### Deployment
 
-To deploy, copy the 404-federalist-client.html to your S3 bucket root 404.html
+To deploy, copy the 404-pages-client.html to your S3 bucket root 404.html
 ```
-aws s3 cp 404-federalist-client.html s3://[BUCKET]/404.html
+aws s3 cp 404-pages-client.html s3://[BUCKET]/404.html
 ```
